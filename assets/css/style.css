@@ -69,8 +69,8 @@ a {
     color: white;
 }
 
-.m-bot {
-    margin-bottom: 2rem;
+.margin {
+    margin-right: 1rem;
 }
 
 /* #endregion utility */
@@ -159,12 +159,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 1rem 1rem 0;
+    margin-bottom: 1rem;
 }
 
 .card i {
     font-size: 70px;
-    color: #0084FD;
+    color: var(--secondary);
     padding: 1rem 0;
 }
 
@@ -175,6 +175,27 @@ header {
     line-height: 2rem;
     text-align: center;
     font-size: 17px;
+}
+
+
+                    /*  PLANNING */
+
+.planning {
+    background-color: var(--primary);
+}
+
+
+
+.card_plan_right {
+    background-color: var(--back);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.card_plan_right img {
+    width: 40%;
 }
 
 /* #endregion main */
