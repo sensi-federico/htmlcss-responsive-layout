@@ -78,6 +78,10 @@ a {
     margin: auto;
 }
 
+.margin-more {
+    margin-right: 2rem;
+}
+
 /* #endregion utility */
 
 
@@ -303,6 +307,54 @@ header {
 }
 
 
+                    /*  BENEFITS */
+
+
+.benefits {
+    background-color: var(--primary);
+}
+
+.benefits h2 {
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 40px;
+    color: var(--back);
+}
+
+.card_benefits {
+    background-color: var(--back);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card_benefits h3 {
+    color: var(--primary);
+    font-size: 65px;
+    padding: 1rem 0;
+}
+
+.card_benefits h4 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+    color: var(--primary);
+}
+
+.card_benefits p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: rgb(89, 89, 89);
+    padding-right: 1rem;
+}
+
+.card_benefits .btn_more {
+    background-color: var(--primary);
+    padding: 0.5rem 2.5rem;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+    font-size: small;
+}
 
 
 /* #endregion main */
