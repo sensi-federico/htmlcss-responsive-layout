@@ -114,6 +114,7 @@ header {
 .demo {
     background-color: var(--back);
     padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .demo h2 {
@@ -192,11 +193,57 @@ header {
     flex-direction: column;
     align-items: center;
     margin-top: 15rem;
+    border-radius: 3rem;
+    width: 24rem;
+    margin-bottom: 3rem;
 }
 
 .card_plan_right img {
-    width: 40%;
+    width: 60%;
+    padding-top: 3rem;
 }
+
+.card_plan_right h2 {
+    padding: 1rem 0;
+}
+
+.card_plan_right p {
+    padding: 0 3rem;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.card_plan_right i {
+    margin: 2rem 0;
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.card_plan_left{
+    padding-left: 9rem;
+
+}
+
+.card_plan_left img {
+    width: 90%;
+    padding: 7rem 0;
+}
+
+.card_plan_left h2 {
+    padding-bottom: 2rem;
+    color: var(--back);
+    font-size: 30px;
+}
+
+.card_plan_left p {
+    padding-right: 3.5rem;
+    color: var(--back);
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
 
 /* #endregion main */
 
