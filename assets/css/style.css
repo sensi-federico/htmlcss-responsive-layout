@@ -246,6 +246,65 @@ header {
 }
 
 
+                    /*  TESTIMONIALS */
+
+
+
+.card_no-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.card_no-bg h4 {
+    font-weight: normal;
+    padding-bottom: 2rem;
+}
+
+.card_no-bg h2 {
+    color: var(--primary);
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+
+.card_no-bg p {
+    font-size: larger;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.card_testim {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card_testim img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 1rem 2rem 1rem 1rem;
+}
+
+.card_testim p {
+    padding: 1rem 1rem;
+    color: var(--back);
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.card_testim h4 {
+    padding-left: 1rem;
+    color: var(--back);
+}
+
+
+
+
 /* #endregion main */
 
 
