@@ -69,6 +69,10 @@ a {
     color: white;
 }
 
+.m-bot {
+    margin-bottom: 2rem;
+}
+
 /* #endregion utility */
 
 
@@ -109,8 +113,14 @@ header {
 
 .demo {
     background-color: var(--back);
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
+
+.demo h2 {
+    color: var(--secondary);
+    padding: 1rem 0;
+}
+
 
                     /* card_large */
 
@@ -118,7 +128,27 @@ header {
     display: flex;
     background-color: var(--secondary-light);
     border-radius: 20px;
+    margin-right: 1rem;
 }
+
+.phone {
+    width: 100%;
+    padding-top: 5rem;
+    padding-right: 3rem;
+}
+
+.left {
+    padding-left: 1rem;
+}
+
+.text_large {
+    padding: 0 0.5rem 2rem 0.5rem;
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 17px;
+}   
+
 
 
                     /* card */
@@ -126,10 +156,26 @@ header {
 .card {
     background-color: var(--secondary-light);
     border-radius: 20px;
-    margin-left: 0.5rem;
-    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem 1rem 0;
 }
 
+.card i {
+    font-size: 70px;
+    color: #0084FD;
+    padding: 1rem 0;
+}
+
+.text_small {
+    padding: 0 0.5rem 2rem 0.5rem;
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 17px;
+}
 
 /* #endregion main */
 
