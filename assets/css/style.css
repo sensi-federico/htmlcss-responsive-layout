@@ -24,6 +24,8 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .col-3 {
@@ -31,7 +33,7 @@
 }
 
 .col-4 {
-    width: calc( (100% / 12) * 4 );
+    width: calc((100% / 12) * 4 );
 }
 
 .col-5 {
@@ -99,3 +101,37 @@ header {
 }
 
 /* #endregion header */
+
+
+/* #region main */
+
+                    /* DEMO */
+
+.demo {
+    background-color: var(--back);
+    padding-top: 1rem;
+}
+
+                    /* card_large */
+
+.card_large {
+    display: flex;
+    background-color: var(--secondary-light);
+    border-radius: 20px;
+}
+
+
+                    /* card */
+
+.card {
+    background-color: var(--secondary-light);
+    border-radius: 20px;
+    margin-left: 0.5rem;
+    height: 48vh;
+}
+
+
+/* #endregion main */
+
+
+
