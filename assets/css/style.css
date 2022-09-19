@@ -73,6 +73,11 @@ a {
     margin-right: 1rem;
 }
 
+.container_small {
+    width: 60%;
+    margin: auto;
+}
+
 /* #endregion utility */
 
 
@@ -221,10 +226,6 @@ header {
     border-radius: 2rem;
 }
 
-.card_plan_left{
-    padding-left: 9rem;
-
-}
 
 .card_plan_left img {
     width: 90%;
