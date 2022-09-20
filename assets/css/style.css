@@ -1,6 +1,14 @@
 
 /* #region utility */
 
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -133,6 +141,14 @@ header {
 
 .logo {
     width: 70px;
+}
+
+
+.fa-bars {
+    color: var(--back);
+    font-size: 24px;
+    padding: 1rem;
+    display: none;
 }
 
 /* #endregion header */
@@ -580,6 +596,14 @@ footer a {
         margin-top: 2.5rem;
         scale: 0.6;
     }
+
+    .fa-bars {
+        display: block;
+    }
+
+    header ul li a {
+        display: none;
+    }
 }
 
 
@@ -615,6 +639,14 @@ footer a {
     .container_small {
         width: 80%;
         margin: auto;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    header ul li a {
+        display: none;
     }
 }
 
