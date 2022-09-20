@@ -486,5 +486,29 @@ header {
 
 /* #endregion main */
 
+/* #region footer */
 
+footer{
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .p-first {
+    padding: 2rem 0;
+    text-align: center
+}
+
+footer .p-second {
+    padding-bottom: 2rem;
+    text-align: center
+}
+
+footer a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* #endregion footer */
 
