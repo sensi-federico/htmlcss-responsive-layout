@@ -45,6 +45,10 @@
     width: calc((100% / 12) * 4 );
 }
 
+.col-4_2 {
+    width: calc((100% / 12) * 4 );
+}
+
 .col-5 {
     width: calc( (100% / 12) * 5 );
 }
@@ -91,8 +95,8 @@ a {
     margin: auto;
 }
 
-.margin-more {
-    margin-right: 2rem;
+.padding {
+    padding: 0.5rem;
 }
 
 /* #endregion utility */
@@ -156,13 +160,14 @@ header {
     display: flex;
     background-color: var(--secondary-light);
     border-radius: 20px;
-    margin-right: 1rem;
 }
 
 .phone {
     width: 100%;
+    height: auto;
     padding-top: 5rem;
     padding-right: 3rem;
+
 }
 
 .left {
@@ -193,7 +198,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
 }
 
 .card i {
@@ -217,8 +221,6 @@ header {
 .planning {
     background-color: var(--primary);
 }
-
-
 
 .card_plan_right {
     background-color: var(--back);
@@ -313,9 +315,10 @@ header {
 
 .card_testim img {
     border-radius: 50%;
-    width: 20%;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     margin: 1rem 2rem 1rem 1rem;
+    object-fit: cover;
 }
 
 .card_testim p {
@@ -438,11 +441,16 @@ header {
     font-size: 70px;
     color: var(--primary);
     position: absolute;
-    right: 17.5rem;
+    right: 20%;
     margin-top: 4rem;
+    scale: 0.9;
 }
 
-                    /*  ABOUT */
+.about .container {
+    padding-bottom: 3rem;
+}
+
+                    /*  STARTED */
 
 .started {
     background-color: var(--primary);
@@ -506,10 +514,6 @@ header {
     text-decoration: underline;
 }
 
-.about .container {
-    padding-bottom: 3rem;
-}
-
 /* #endregion main */
 
 /* #region footer */
@@ -537,4 +541,82 @@ footer a {
 }
 
 /* #endregion footer */
+
+
+/* #regione media*/
+
+
+@media screen and (max-width: 1199px)  {
+
+    .container {
+        max-width: 70%;
+    }
+
+    .card_large {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_large img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .phone {
+        padding-top: 1rem;
+        height: 200px;
+    }
+
+    .col-4_2 {
+        width: calc((100% / 12) * 6 );
+    }
+
+    .col-6 {
+        width: calc((100% / 12) * 12 );
+    }
+
+    .card_about .fa-solid {
+        right: 18%;
+        margin-top: 2.5rem;
+        scale: 0.6;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .col-4,
+    .col-9,
+    .col-2,
+    .col-4_2, 
+    .col-8, 
+    .col-6 {
+        width: calc((100% / 12) * 12 );
+    }
+
+    .card_testim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_testim h4 {
+        padding-bottom: 1rem;
+    }
+
+    .card_plan_right {
+        background-color: var(--back);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 3rem;
+        margin: 3rem auto;
+    }
+
+    .container_small {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* #endregion media */
 
