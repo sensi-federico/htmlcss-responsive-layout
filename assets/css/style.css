@@ -28,6 +28,10 @@
     flex-direction: row;
 }
 
+.col-2 {
+    width: calc( (100% / 12) * 2 );
+}
+
 .col-3 {
     width: calc( (100% / 12) * 3 );
 }
@@ -54,6 +58,10 @@
 
 .col-9 {
     width: calc( (100% / 12) * 9 );
+}
+
+.col-10 {
+    width: calc( (100% / 12) * 10 );
 }
 
 .col-12 {
@@ -96,6 +104,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+}
+
+.menu_right {
+    list-style: none;
+    display: flex;
 }
 
 .menu_right a {
@@ -356,6 +369,49 @@ header {
     font-size: small;
 }
 
+                    /*  ABOUT */
+
+.about h2 {
+    color: var(--primary);
+    padding: 3rem 0 2rem 0;
+    font-size: 50px;
+}
+
+.about p {
+    line-height: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.about h4 {
+    color: var(--primary);
+    font-size: 25px;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about .btn_linked {
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 3rem;
+    font-size: small;
+}
+
+.fa-linkedin {
+    margin-right: 0.5rem;
+}
+
+.card_about {
+    display: flex;
+    flex-direction: column;
+}
 
 /* #endregion main */
 
