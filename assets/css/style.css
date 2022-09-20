@@ -177,6 +177,12 @@ header {
     font-size: 17px;
 }   
 
+.btn_appstore {
+    background-color: var(--secondary);
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    font-size: 20px;
+}
 
 
                     /* card */
@@ -307,8 +313,8 @@ header {
 
 .card_testim img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: 140px;
     margin: 1rem 2rem 1rem 1rem;
 }
 
@@ -322,6 +328,10 @@ header {
 .card_testim h4 {
     padding-left: 1rem;
     color: var(--back);
+}
+
+.testimonials .container {
+    padding-bottom: 2rem;
 }
 
 
@@ -343,7 +353,8 @@ header {
     background-color: var(--back);
     padding: 1rem;
     border-radius: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .card_benefits h3 {
@@ -374,6 +385,10 @@ header {
     font-size: small;
 }
 
+.benefits .container {
+    padding-bottom: 3rem;
+}
+
                     /*  ABOUT */
 
 .about h2 {
@@ -393,6 +408,7 @@ header {
     border-radius: 50%;
     margin-top: 4rem;
     margin-bottom: 2rem;
+    position: relative;
 }
 
 .about h4 {
@@ -416,6 +432,14 @@ header {
 .card_about {
     display: flex;
     flex-direction: column;
+}
+
+.card_about .fa-solid {
+    font-size: 70px;
+    color: var(--primary);
+    position: absolute;
+    right: 17.5rem;
+    margin-top: 4rem;
 }
 
                     /*  ABOUT */
@@ -482,7 +506,9 @@ header {
     text-decoration: underline;
 }
 
-
+.about .container {
+    padding-bottom: 3rem;
+}
 
 /* #endregion main */
 
